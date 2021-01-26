@@ -1,0 +1,70 @@
+[
+    {
+        "title": "zain online",
+        "image": "web/zainonline.jpg",
+        "desc": "this is a real app build using angular and firebase ",
+        "category": "web",
+        "prjectLink": "https://zain-online.web.app/",
+        "tech": [
+            "html",
+            "css",
+            "angular",
+            "firebase"
+        ]
+    },
+    {
+        "title": "budgetApp",
+        "image": "web/budgetApp.jpg",
+        "desc": "budgetApp is a calcuate app for budget",
+        "category": "web",
+        "prjectLink": "Projects/Web/budget_app/index.html",
+        "tech": [
+            "html",
+            "css",
+            "javascript"
+        ]
+    },
+    {
+        "title": "Ball Colors",
+        "image": "games/FallBallColor.jpg",
+        "desc": "Ball Colors is a simple game you need to catch the same color of ball",
+        "category": "games",
+        "prjectLink": "Projects/Games/FallBallColor/FallBallColor.html",
+        "tech": [
+            "unity",
+            "c#"
+        ]
+    },
+    {
+        "title": "the magic of nature",
+        "image": "web/themagicofnatureimg.jpg",
+        "desc": "the magic of nature website",
+        "category": "web",
+        "prjectLink": "Projects/Web/the-magic-of-nature/index.html",
+        "tech": [
+            "html",
+            "css"
+        ]
+    },
+    {
+        "title": "Ninja adventure",
+        "image": "games/NinjaAdventure.jpg",
+        "desc": "Fall ball is a simple game made with unity",
+        "category": "games",
+        "prjectLink": "Projects/Games/NinjaAdventure/NinjaAdventure.html",
+        "tech": [
+            "unity",
+            "c#"
+        ]
+    },
+    {
+        "title": "UI-UX",
+        "image": "uiux.png",
+        "desc": "UX-UI",
+        "category": "ui-ux",
+        "designID": "uiux",
+        "tech": [
+            "Adobe XD"
+        ]
+    }
+]

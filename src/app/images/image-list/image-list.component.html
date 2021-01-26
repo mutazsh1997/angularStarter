@@ -1,0 +1,36 @@
+<!-- <table *ngIf="imageList">
+    <tr *ngFor="let item of rowIndexArray">
+        <td>
+            <div class="imagebox">
+                <img [src]="imageList[3*item].imageURL" [alt]="imageList[3*item].caption" class="img-fluid">
+                <span class="imagebox-desc">{{imageList[3*item].caption}}</span>
+            </div>
+        </td>
+        <td>    
+            <div class="imagebox">
+                <img [src]="imageList[3*item+1].imageURL" [alt]="imageList[3*item+1].caption" class="img-fluid">
+                <span class="imagebox-desc">{{imageList[3*item+1].caption}}</span>
+            </div>
+        </td>
+        <td>
+            <div class="imagebox">
+                <img [src]="imageList[3*item+2].imageURL" [alt]="imageList[3*item+2].caption" class="img-fluid">
+                <span class="imagebox-desc">{{imageList[3*item+2].caption}}</span>
+            </div>
+        </td>
+    </tr>
+</table> -->
+<section class="prdoucts-container">
+
+    <div class="prdoucts__content" *ngFor="let item of imageList">
+        <div class="prdoucts-img">
+            <img src="{{ item.imageURL }}" alt="{{ item.caption }}">
+            <button class="add-btn" (click)="addToCart(item)">
+                
+                <span class="itemCart" #textBtn>add to cart</span>
+            </button>
+        </div>
+        <p class="prdoucts-name">{{  item.caption }}</p>
+        <p class="prdoucts-price">${{  item.caption }}</p>
+    </div>
+</section>

@@ -1,0 +1,13 @@
+
+<h1>List Component</h1>
+
+<div class="play-container">
+    <ul *ngIf="brews">
+        <li *ngFor="let brew of brews">
+            <p class="name">{{ brew.name }}</p>
+            <p class="name">{{ brew.id }}</p>
+            <p class="country">{{ brew.country }}</p>
+            <a href="{{ brew.website_url }}" class="site">site</a>
+        </li>
+    </ul> 
+</div>

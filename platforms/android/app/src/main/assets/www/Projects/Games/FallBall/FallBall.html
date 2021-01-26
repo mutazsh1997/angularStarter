@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fall Ball Game | M-Studio</title>
+   
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Webgl.json", {onProgress: UnityProgress});
+    </script>
+    
+    <link rel="stylesheet" href="../../../css/game_compressor.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="navigation" style="background-color: #353535">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="../../../Index.html#web" target="_blank" class="navigation__link">Web <span class="main-color">Work</span></a></li>
+                    <li class="navigation__item"><a href="../../../Index.html#games" target="_blank" class="navigation__link">Games <span class="main-color">Work</span></a></li>
+                    <li class="navigation__item main-color"><a href="../../../Index.html#footer" target="_blank" class="navigation__link">About Me</a></li>
+                 </ul>
+            </nav>
+                <div class="logo__box">
+                    <img src="../../../Images/main-img/logo.svg" alt="Logo M-Studio" title="M-Studio for web development and games development" class="logo">
+                </div>
+        </div>
+    </header>
+
+    <main class="main_content">
+        <div class="row">
+            <div class="col-1-of-1">
+                <div class="webgl-content">
+                    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                    <div class="footer__game">
+                      <div class="webgl-logo"></div>
+                      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                      <div class="title">Fall Balls Game</div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-contact" id="footer">
+            <div class="row">
+                <div class="footer-contact__social">
+                        <h3 class="tertiary text-center"  style="width: 60%">
+                            feel free to contact me
+                        </h3>
+                    <ul class="footer-contact__list">
+                        <li class="footer-contact__item">
+                            <a href="https://www.youtube.com/channel/UCwrWovUfiODfP-UlYgA-V7g?view_as=subscriber" target="_blank"> <i class="fab fa-youtube"></i> 
+                            </a></li>
+                        <li class="footer-contact__item">
+                            <a href="https://www.pinterest.com/mshawar0913" target="_blank"> <i class="fab fa-pinterest-p"></i> 
+                            </a></li>
+                        <li class="footer-contact__item">
+                            <a href="https://www.linkedin.com/in/mutaz-shawar-70a442153" target="_blank"> <i class="fab fa-linkedin-in"></i> 
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center">
+            This Game design and build with <span style="color: #d82c2c" >&hearts;</span> by M-Studio
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pixel art | m-studio </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    
+    <section class="pixelCanves">
+    <h1>pixel art</h1>
+    
+    <table id="girdCanves"></table>    
+    
+    </section>
+
+    <section class="leftSide">
+    
+    <form action="#">
+        <input type="number" name="gridWidth" id="gridWidth" placeholder="width" min="1" max="35" value="25">
+        <input type="number" name="gridHeight" id="gridHeight" placeholder="height" min="1" max="35" value="25">
+        <input type="submit" name="createCanves" id="createCanves" value="create">
+    </form>
+
+    <input type="color" name="color" id="colorPiker" value="#008cff">
+    <button type="submit" class="active" id="pincel" value="pincle"><i class="fas fa-pencil-alt"></i></button>
+    <button type="submit" id="eraser" value="eraser"><i class="fas fa-eraser"></i></button>
+    <button type="submit" id="download" value="Download"><i class="fas fa-download"></i></button>
+
+    </section>  
+
+      <script src="script.js"></script> 
+</body>
+</html>

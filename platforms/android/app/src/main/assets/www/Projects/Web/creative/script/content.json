@@ -1,0 +1,107 @@
+{
+    "ourworks": [
+        {
+            "sys": { "id": "1" },
+            "fields": {
+              "title": "content 1",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+              "title": "content 2",
+              "image": { "fields": { "file": { "url": "../image/work_2.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+              "title": "content 3",
+              "image": { "fields": { "file": { "url": "../image/work_3.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+              "title": "content 4",
+              "image": { "fields": { "file": { "url": "../image/work_4.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+              "title": "content 5",
+              "image": { "fields": { "file": { "url": "../image/work_5.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "6" },
+            "fields": {
+              "title": "content 6",
+              "image": { "fields": { "file": { "url": "../image/work_6.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "7" },
+            "fields": {
+              "title": "content 7",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "8" },
+            "fields": {
+              "title": "content 8",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "9" },
+            "fields": {
+              "title": "content 9",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "10" },
+            "fields": {
+              "title": "content 10",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "11" },
+            "fields": {
+              "title": "content 11",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          },
+        {
+            "sys": { "id": "12" },
+            "fields": {
+              "title": "content 12",
+              "image": { "fields": { "file": { "url": "../image/work_1.png" } } }
+            }
+          }
+    ],
+    "whyus" :  [
+      {
+      "title": "ما يميزنا",
+      "desc": [" test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! ", 
+        "test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! ",
+        "test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! "
+      ]
+    }
+  ],
+    "about" :  [
+    {
+      "title": "نبذة عنا",
+      "desc": [" test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! ", 
+        "test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! ",
+        "test ipsum dolor sit amet consectetur adipisicing elit. Quod autem quam sint itaque consectetur quasi, voluptatum, molestias a ex in vel, reprehenderit adipisci. Porro quasi quia dolores, labore ex recusandae! "
+      ]
+    }
+  ]
+}
+ 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO APP</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head> 
+<body>
+    
+    <header class="header">
+        <div class="container">
+
+            <h1 class="header__title">todo app</h1>
+
+            <!--header content area which will be how todo item in list and search bar-->
+            <div class="header__content">
+           
+                        <p class="todo__text"><span> to-do items </span> <span id="todo-number"> 15 </span></p>
+                        
+                    <!--this div just for position the clear icon-->
+                    <div style="position: relative;">
+
+                        <input  type="search" name="search" class="todo__search" id="filterSearch" placeholder="search" >
+                        <span class="clear" id="clear">&timesbar;</span>
+
+                    </div>
+            </div>
+ 
+        </div>
+    </header>
+
+    <!--todo list items and input form-->
+        <section class="todo">
+            <div class="todo-inputs">
+                <form class="todo__form">
+                    <input type="text" name="description" id="todo-input"class="todo__description-input" placeholder="TO-DO" required>
+                    <input type="submit" id="submitBtn" name="addBtn" class="todo__submit">
+                    <label class="todo__submit-icon" for="submitBtn">&checkmark;</label>
+                </form>
+            </div>
+        
+           
+            <div class="todo-description-content">  
+                <ul class="todo__list" id="todo-list">
+                    
+                    <!--these items just for test-->
+                  <!--   <li class="todo__item clearFix">
+                       <i class="fas fa-edit todo__item-edit"></i>
+                        <span class="todo__item-description">Item 1</span>
+                        <button class="todo__item-delete" id="delete">X</button>
+                    </li>
+                    <li class="todo__item clearFix">
+                         <i class="fas fa-edit todo__item-edit"></i>
+                        <span class="todo__item-description">Item 1</span>
+                        <button class="todo__item-delete" id="delete">X</button>
+                    </li> 
+                    <li class="todo__item clearFix">  
+                            <i class="fas fa-edit todo__item-edit"></i>
+                        <span class="todo__item-description">Item 1</span>
+                        <button class="todo__item-delete" id="delete">X</button>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+ 
+
+    <footer class="footer">
+        
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
